@@ -1,0 +1,6 @@
+{
+  "name": "Helix OS — Lenguaje Simbólico",
+  "description": "Especificación técnica y banco de trabajo para el lenguaje simbólico Helix de 33 tokens: léxico de opcodes, sintaxis AST, codificación prima de Gödel y síntesis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
