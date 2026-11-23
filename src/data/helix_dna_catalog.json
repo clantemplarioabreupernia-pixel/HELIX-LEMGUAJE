@@ -1,0 +1,1319 @@
+﻿{
+    "schema":  "helix.dna.catalog/v2.0",
+    "total_cells":  164,
+    "generated":  "2026-11-23T02:12:51.9728462-05:00",
+    "cells":  [
+                  {
+                      "id":  "01_mem_pauli28",
+                      "file":  "01_mem_pauli28.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "52739e8875f4cb835ea180796866a41dde9468add5d71447aa928866bcf28e69",
+                      "code":  "# HERRAMIENTA HELIX: MEMORIA_PAULI_28B (Primo 2 RES)\nᛇᚢ\nᛗᚦ mem_kernel\nᚠᚷ 28\nSET stride_bytes 28\nSET zero_gc 1\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "02_physics_cauchy_nemesis",
+                      "file":  "02_physics_cauchy_nemesis.hlx",
+                      "domain":  "PHYSICS_FLUIDS",
+                      "lines":  9,
+                      "sha256":  "47914e19a0a45dcccfde301a4f4718c30f84107e389fc2e9a0bb5cd3ede15999",
+                      "code":  "# HERRAMIENTA HELIX: FISICA_CAUCHY_NEMESIS (Primo 41 ROT)\nᛇᚢ\nᛗᚦ physics_core\nSET gamma 0.005\nSET thermal 0.001\nSET biopixels 3686400\nᚩᛢ cauchy_field active\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "03_audio_p33_cymatic",
+                      "file":  "03_audio_p33_cymatic.hlx",
+                      "domain":  "BIOMED_AUDIO",
+                      "lines":  8,
+                      "sha256":  "82aecf851c0dc3eab827ae4d69aea5045f6492ae6d3defd4ba44a93a7c57b649",
+                      "code":  "# HERRAMIENTA HELIX: RESONANCIA_P33 (Primo 7 ANSUZ)\nᛇᚢ\nᛗᚦ audio_dsp\nSET prime_p33 7\nSET freq_hz 457.84\nᚩᛖ freq_hz\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "04_render_3d_pbr",
+                      "file":  "04_render_3d_pbr.hlx",
+                      "domain":  "CINEMA_3D",
+                      "lines":  8,
+                      "sha256":  "44aa8e91c0a899fcadc0b02735cf95b694d49daee62ef25bd8b36939d5f3e529",
+                      "code":  "# HERRAMIENTA HELIX: MOTOR_3D_PBR (Primo 79 EXP)\nᛇᚢ\nᛗᚦ render_pbr\nᚠᛜ core_mesh sphere 640 1.0\nᛟᛣ core_mesh 0.92 0.22 0.90\nᚱᚣ 0.0 1.55 -2.5 0 0 45\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "05_quantum_bloch",
+                      "file":  "05_quantum_bloch.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "6677c7b9ea32563b84225a864ff77d0ab507fc0e98d9cda61b77ec16a47da52c",
+                      "code":  "# HERRAMIENTA HELIX: QUBIT_ESFERA_BLOCH (Primo 43 RND)\nᛇᚢ\nᛗᚦ quantum_bloch\nSET theta 0.0\nSET phi 0.0\nᚠᛜ bloch_sphere sphere 720 1.0\nᛟᛣ bloch_sphere 0.95 0.15 0.92\nᚠᛜ state_vector capsule 240 0.85\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "06_quantum_gates",
+                      "file":  "06_quantum_gates.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  11,
+                      "sha256":  "a95096666d293db48a390eda42f9b3bfca9c147def2f5fe3c20e5d54c0a6b2df",
+                      "code":  "# HERRAMIENTA HELIX: PUERTAS_CUANTICAS_H_X_Z (Primo 13 RUN)\nᛇᚢ\nᛗᚦ quantum_alu\nSET prob_0 100\nSET prob_1 0\nDIV prob_0 2\nADD prob_1 50\nᚩᛖ prob_0\nᚩᛖ prob_1\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "07_student_lab_ui",
+                      "file":  "07_student_lab_ui.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "ad9092027c2086cbbb0e26d4000186e4282e4d92fc2f7e13fa12deabbea3be01",
+                      "code":  "# HERRAMIENTA HELIX: INTERFAZ_ESTUDIANTE_LAB (Primo 71 MAN)\nᛇᚢ\nᛗᚦ student_ui\nSET interactive_bloch 1\nSET step_guide 1\nᚩᛢ student_lab ready\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "08_security_pqc_acl",
+                      "file":  "08_security_pqc_acl.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "c3795b9a0f2219c486d2533bc12168d328f93a68614ffa685da4734772b828be",
+                      "code":  "# HERRAMIENTA HELIX: SEGURIDAD_PQC_ACL (Primo 5 ACL)\nᛇᚢ\nᛗᚦ sec_guard\nᛈᚫ\nSET pqc_verified 1\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "09_hilbert_lattice",
+                      "file":  "09_hilbert_lattice.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "ebe1817bfd260ce1c254cdca0930577e76a511089f0e96c5353623c6084ae12d",
+                      "code":  "# CELULA EXTRAIDA: HILBERT_LATTICE_VECTORS (Primo 11 RTE)\nᛇᚢ\nᛗᚦ hilbert_space\nSET dimensions 10\nSET coherence 0.98\nᚠᛜ vector_grid prism 360 1.0\nᚱᚳ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "100_biome_world_scatter",
+                      "file":  "100_biome_world_scatter.hlx",
+                      "domain":  "BIOMED_AUDIO",
+                      "lines":  9,
+                      "sha256":  "bcf36e4c8140728b15340aed04b1c1f097ec7c3ec5dc63550cf3fa4a9b9b7bbc",
+                      "code":  "# CELULA EXTRAIDA: BIOME_REGISTRY_SCATTER (Primo 79 EXP)\nᛇᚢ\nᛗᚦ biome_world\nSET biomes_cnt 5\nSET props_scattered 64\nᛒᚢ\nᚩᛖ props_scattered\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "101_easing_playhead_interp",
+                      "file":  "101_easing_playhead_interp.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "6ef86d33631f3a941ee542ae3ae585b9d820ea21b9ab98b663fc320d15c2f6b4",
+                      "code":  "# CELULA EXTRAIDA: EASING_PLAYHEAD_TIMELINE (Primo 83 TCK)\nᛇᚢ\nᛗᚦ playhead_interp\nSET duration_sec 60\nSET fps_step 16\nᛞᚾ\nᚩᛖ duration_sec\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "102_world_schema_boundary",
+                      "file":  "102_world_schema_boundary.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "e53bffd62fbb19b420b614b7c467d328143bbd6f177941626f173a63f1cb49b8",
+                      "code":  "# CELULA EXTRAIDA: WORLD_SCHEMA_ERROR_BOUNDARY (Primo 47 SBX)\nᛇᚢ\nᛗᚦ world_guard\nSET schema_ok 1\nᛉᚻ\nᚩᛢ world_boundary protected\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "103_world_spec_limits",
+                      "file":  "103_world_spec_limits.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "65b21ea4871bb825844ee972830ef29e4eb5866a527b1fe1af1dc39aab8e3ea3",
+                      "code":  "# CELULA EXTRAIDA: WORLD_TERRAIN_SPEC_LIMITS (Primo 13 RUN)\nᛇᚢ\nᛗᚦ world_spec\nSET terrain_res 128\nSET max_octaves 8\nSET max_biomes 6\nᚩᛖ terrain_res\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "104_http_abort_client",
+                      "file":  "104_http_abort_client.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "307f1a7f05af64718fba981be392bf3d1dcce4b2c950cae0072f004f0c52a69e",
+                      "code":  "# CELULA EXTRAIDA: HTTP_ABORT_TIMEOUT_CLIENT (Primo 67 BUS)\nᛇᚢ\nᛗᚦ http_client\nSET timeout_ms 30000\nSET max_body_mb 2\nᚩᛖ timeout_ms\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "105_world_prompt_generator",
+                      "file":  "105_world_prompt_generator.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "b32165f3bb14e76a3cd7ac95250982eed4325a37450de2abf5e1b3a9ecb09c02",
+                      "code":  "# CELULA EXTRAIDA: WORLD_JSON_SCHEMA_GEN (Primo 7 STR)\nᛇᚢ\nᛗᚦ world_prompt\nSET json_strict 1\nᚩᛢ world_spec_json generated\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "106_env_camera_bounds",
+                      "file":  "106_env_camera_bounds.hlx",
+                      "domain":  "CINEMA_3D",
+                      "lines":  11,
+                      "sha256":  "71454eb7a1ee038e8c31ff6c5251b4bcde4abc311c67cf17a879f95164b991ec",
+                      "code":  "# CELULA EXTRAIDA: ENV_ASSERT_CAMERA_BOUNDS (Primo 5 ACL)\nᛇᚢ\nᛗᚦ env_cam_guard\nSET cam_fov 60\nSET cam_far 2000\nIF cam_fov \u003e 0\n  SET env_ok 1\n  ᚩᛖ env_ok\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "107_material3_ui_system",
+                      "file":  "107_material3_ui_system.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "ccff4ecb2a9929dd0c4bb689db61a044fcff5800c1671a82c3643dc38ce1aad2",
+                      "code":  "# CELULA EXTRAIDA: MATERIAL3_UI_DESIGN_SYSTEM (Primo 19 NOM)\nᛇᚢ\nᛗᚦ m3_ui\nSET ui_components 7\nSET rail_nav 1\nᚹ\nᚩᛖ ui_components\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "108_streaming_sse_pipe",
+                      "file":  "108_streaming_sse_pipe.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "b3875d587f4f0cdc68d13ad14b58d39b33d5beb851fd7c23af301f7af8a99ea1",
+                      "code":  "# CELULA EXTRAIDA: STREAMING_COMPLETION_PIPE (Primo 73 PIP)\nᛇᚢ\nᛗᚦ stream_pipe\nSET chunk_mode 1\nᛚᚣ\nᚩᛢ stream_chunk_ready ok\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "109_pwa_offline_manifest",
+                      "file":  "109_pwa_offline_manifest.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "d0a3b731b4ab614aa2d05f5eaed4ded6255e01f75be53c255a662192811f06bd",
+                      "code":  "# CELULA EXTRAIDA: PWA_OFFLINE_MANIFEST (Primo 97 PER)\nᛇᚢ\nᛗᚦ pwa_manifest\nSET installable 1\nᚩᛖ installable\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "10_annealing_solver",
+                      "file":  "10_annealing_solver.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  11,
+                      "sha256":  "8a3ae87093b1eeb74fdc724898445f493f5301f9430f2379cb56add5985a2fd0",
+                      "code":  "# CELULA EXTRAIDA: SIMULATED_ANNEALING_ENGINE (Primo 37 EPC)\nᛇᚢ\nᛗᚦ optimizer_sa\nSET temp_init 1000\nSET cooling_rate 0.95\nLOOP 20\n  SUB temp_init 45\nEND\nᚩᛖ temp_init\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "110_payload_error_middleware",
+                      "file":  "110_payload_error_middleware.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "e5daff748fd6a26e1db826a5412ef81ccf587906915b6c07bba3349f77f28f4b",
+                      "code":  "# CELULA EXTRAIDA: PAYLOAD_VALIDATION_MIDDLEWARE (Primo 5 ACL)\nᛇᚢ\nᛗᚦ http_guard\nSET payload_valid 1\nIF payload_valid \u003e 0\n  ᚦᚩ\n  ᚩᛖ payload_valid\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "111_m3_dynamic_theme_tokens",
+                      "file":  "111_m3_dynamic_theme_tokens.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "f77e3cbea6384a268f2b41031c8de71c3dd6b6019e4286bd589ce31445e2ba75",
+                      "code":  "# CELULA EXTRAIDA: M3_DYNAMIC_LIGHT_DARK_TOKENS (Primo 19 NOM)\nᛇᚢ\nᛗᚦ m3_theme\nSET theme_mode 1\nSET primary_hue 257\nᚹ\nᚩᛖ primary_hue\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "112_concurrent_web_api_proxy",
+                      "file":  "112_concurrent_web_api_proxy.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "bdd47500a8a9cf491428466bb75e28a208ab7f76692e856235744af644078cb3",
+                      "code":  "# CELULA EXTRAIDA: CONCURRENT_WEB_API_PROXY (Primo 67 BUS)\nᛇᚢ\nᛗᚦ web_api_proxy\nSET web_port 3000\nSET api_port 3001\nᚩᛖ api_port\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "113_typed_local_storage",
+                      "file":  "113_typed_local_storage.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "c470353cb14c77eb3ce55de9f4db06713133193dcd6ac0f8d43f30903d457f6c",
+                      "code":  "# CELULA EXTRAIDA: TYPED_LOCAL_STORAGE_PERSIST (Primo 97 PER)\nᛇᚢ\nᛗᚦ local_store\nSET storage_keys 2\nSET persist_ok 1\nᚩᛖ storage_keys\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "114_chat_composer_abort_api",
+                      "file":  "114_chat_composer_abort_api.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "699b8a4c7703559e5d67a62d7c7cd6fa951d47e2148f25b70358ecc2532c13b4",
+                      "code":  "# CELULA EXTRAIDA: CHAT_COMPOSER_ABORT_API (Primo 7 STR)\nᛇᚢ\nᛗᚦ chat_composer\nSET abort_enabled 1\nᚩᛢ chat_composer_ready ok\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "115_multiplayer_ws_room",
+                      "file":  "115_multiplayer_ws_room.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "19d1d97d54dcd9cf3f4d8d6424f8e724516cae680d3102060701562bfcc9a76a",
+                      "code":  "# CELULA EXTRAIDA: MULTIPLAYER_COLYSEUS_ROOM (Primo 107 DMN)\nᛇᚢ\nᛗᚦ ws_room\nSET max_clients 32\nSET room_active 1\nᚩᛢ multiplayer_room online\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "116_delta_state_sync",
+                      "file":  "116_delta_state_sync.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "e0d63b06b3bf60671e595e25052ee761883a6e29220177a0f9c296b183eb0a89",
+                      "code":  "# CELULA EXTRAIDA: DELTA_PLAYER_STATE_SYNC (Primo 67 BUS)\nᛇᚢ\nᛗᚦ delta_sync\nSET tick_hz 20\nSET players_synced 8\nᚩᛖ players_synced\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "117_avatar_reflector_world",
+                      "file":  "117_avatar_reflector_world.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "e23a15ad911562c89fcafae6a2332202d6bd78fc8c74dedad74c41c0d5450160",
+                      "code":  "# CELULA EXTRAIDA: AVATAR_REFLECTOR_STAGE (Primo 79 EXP)\nᛇᚢ\nᛗᚦ virtual_world\nᚠᛜ player_capsule capsule 320 1.0\nᛟᛣ player_capsule 0.90 0.15 0.85\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "118_musical_note_synth",
+                      "file":  "118_musical_note_synth.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "9b3292191824a676e6e1df9b81f27d6d201a5384865181fcbd0293ec432d490b",
+                      "code":  "# CELULA EXTRAIDA: NOTE_TO_FREQUENCY_SYNTH (Primo 7 STR)\nᛇᚢ\nᛗᚦ note_synth\nSET note_a4_hz 440\nSET harmonics 4\nᚩᛖ note_a4_hz\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "119_multitrack_melody_gen",
+                      "file":  "119_multitrack_melody_gen.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  11,
+                      "sha256":  "706d46d1a7a94be896888155cf713f3d7447b1280fe1e8558d94b91bcff5dd12",
+                      "code":  "# CELULA EXTRAIDA: MULTITRACK_MELODY_SEQUENCER (Primo 13 RUN)\nᛇᚢ\nᛗᚦ melody_seq\nSET tracks_count 4\nSET bpm 120\nLOOP 4\n  ADD tracks_count 1\nEND\nᚩᛖ bpm\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "11_dsp_signal_lab",
+                      "file":  "11_dsp_signal_lab.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "6751d172d6867eec4bf8422cefaf9261407733a092dde577b0d84c5a86a63db5",
+                      "code":  "# CELULA EXTRAIDA: DSP_SIGNAL_PROCESSOR (Primo 73 PIP)\nᛇᚢ\nᛗᚦ dsp_filter\nSET sample_rate 48000\nSET cutoff_hz 1200\nᚠᚷ 64\nᚩᛖ cutoff_hz\nᚠᛠ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "120_session_auth_provider",
+                      "file":  "120_session_auth_provider.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "fb17129d63c39bfa887e9c0d85e519511cd6bced046cf907dd00518d2275dea6",
+                      "code":  "# CELULA EXTRAIDA: SESSION_AUTH_IDENTITY (Primo 71 UID)\nᛇᚢ\nᛗᚦ session_auth\nSET session_valid 1\nᚦᚩ\nᚩᛖ session_valid\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "121_gravity_newton_iau",
+                      "file":  "121_gravity_newton_iau.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "001dd0d6adc212efa1c4aee32a6d1564d96494954dbb68a01a505f5e95c26a5c",
+                      "code":  "# CELULA EXTRAIDA: NEWTON_GRAVITY_IAU (Primo 3 INI)\nᛇᚢ\nᛗᚦ gravity_core\nSET mu_earth 398600\nSET radius_km 6771\nᚢ\nᚩᛖ radius_km\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "122_verlet_symplectic_int",
+                      "file":  "122_verlet_symplectic_int.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "29abf54b90a5771372d4885331faae09af5e6a87defafa9c7c3498e3c7e543be",
+                      "code":  "# CELULA EXTRAIDA: VERLET_SYMPLECTIC_INTEGRATOR (Primo 37 EPC)\nᛇᚢ\nᛗᚦ verlet_int\nSET dt_ms 16\nLOOP 10\n  ADD dt_ms 16\nEND\nᚩᛖ dt_ms\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "123_orbital_mechanics_kepler",
+                      "file":  "123_orbital_mechanics_kepler.hlx",
+                      "domain":  "SPACE_TELECOM",
+                      "lines":  9,
+                      "sha256":  "82e456fbb778f35de1af5eeb0b2c22ca2f3d2bbf6ef8245c81b5a461a2854e7d",
+                      "code":  "# CELULA EXTRAIDA: ORBITAL_VELOCITY_ESCAPE (Primo 11 RTE)\nᛇᚢ\nᛗᚦ orbital_alu\nSET v_orb_ms 7670\nSET v_esc_ms 10847\nᚱᚳ\nᚩᛖ v_orb_ms\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "124_schwarzschild_relativity",
+                      "file":  "124_schwarzschild_relativity.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "35afd8ea7093d78f4394e07b162dc116ad155fea8c0698a951ef1b3d367eef44",
+                      "code":  "# CELULA EXTRAIDA: SCHWARZSCHILD_RADIUS_RELATIVITY (Primo 131 KIL)\nᛇᚢ\nᛗᚦ relativity_gr\nSET rs_mm 9\nᛤᚾ\nᚩᛖ rs_mm\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "125_satellite_circular_trail",
+                      "file":  "125_satellite_circular_trail.hlx",
+                      "domain":  "SPACE_TELECOM",
+                      "lines":  9,
+                      "sha256":  "9e0394147981259ff61f408f0c4cdff836c5f0db2f11c54bb91de09651529108",
+                      "code":  "# CELULA EXTRAIDA: SATELLITE_MESH_CIRCULAR_TRAIL (Primo 127 REG)\nᛇᚢ\nᛗᚦ sat_trail\nᚠᛜ sat_node sphere 360 0.8\nᛟᛣ sat_node 0.95 0.15 0.92\nSET trail_len 256\nᚩᛖ trail_len\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "126_orbital_energy_invariant",
+                      "file":  "126_orbital_energy_invariant.hlx",
+                      "domain":  "SPACE_TELECOM",
+                      "lines":  9,
+                      "sha256":  "cd88d63ab08c188ea8b82dddd6ec1853df62f8a209f0bdf52ccbfaca4748568a",
+                      "code":  "# CELULA EXTRAIDA: ORBITAL_ENERGY_MOMENTUM_INVARIANT (Primo 101 ECC)\nᛇᚢ\nᛗᚦ orbit_guard\nSET energy_conserved 1\nIF energy_conserved \u003e 0\n  ᚩᛖ energy_conserved\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "127_result_ok_err_monad",
+                      "file":  "127_result_ok_err_monad.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "22d17acc663a5d6c2d0231e82f854d3084170f75733341b64f328b77d873e95c",
+                      "code":  "# CELULA EXTRAIDA: RESULT_OK_ERR_DOMAIN_GUARD (Primo 5 ACL)\nᛇᚢ\nᛗᚦ result_monad\nSET is_ok 1\nIF is_ok \u003e 0\n  ᚦᚩ\n  ᚩᛖ is_ok\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "128_income_expense_ledger",
+                      "file":  "128_income_expense_ledger.hlx",
+                      "domain":  "FINANCE_P33",
+                      "lines":  9,
+                      "sha256":  "b2a4e9e213e179e577e4467ed5700d4ba667246cba7a73cfa2d6786f644f7570",
+                      "code":  "# CELULA EXTRAIDA: INCOME_EXPENSE_LEDGER_REPO (Primo 2 RES)\nᛇᚢ\nᛗᚦ finance_repo\nSET income_total 5000\nSET expense_total 1800\nSUB income_total 1800\nᚩᛖ income_total\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "129_monthly_category_kpi",
+                      "file":  "129_monthly_category_kpi.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "b355ada93a025ae4202f7a94e144a5efe5c846cbe5e3d5dfbc4f87966f30733e",
+                      "code":  "# CELULA EXTRAIDA: MONTHLY_CATEGORY_KPI_SUMMARY (Primo 13 RUN)\nᛇᚢ\nᛗᚦ kpi_summary\nSET categories_cnt 6\nSET months_cnt 12\nᚩᛖ categories_cnt\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "12_rf_vband_shield",
+                      "file":  "12_rf_vband_shield.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "b8195afe960eb6a37797ae9dbe6cc5cdc2520803e6f939437449e38ce334fd96",
+                      "code":  "# CELULA EXTRAIDA: RF_VBAND_SPECTRUM (Primo 47 SBX)\nᛇᚢ\nᛗᚦ rf_engine\nSET band_ghz 60\nSET attenuation_db 42\nᛉᚻ\nᚩᛢ rf_vband active\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "130_cashflow_pie_charts",
+                      "file":  "130_cashflow_pie_charts.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "871437d326c92cacf736b0ca9c28e1ee582474f34309729d999618eab85806c8",
+                      "code":  "# CELULA EXTRAIDA: CASHFLOW_BAR_PIE_CHARTS (Primo 127 REG)\nᛇᚢ\nᛗᚦ finance_charts\nSET bar_series 12\nSET pie_slices 6\nᚩᛢ cashflow_charts rendered\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "131_statevector_12q_simulator",
+                      "file":  "131_statevector_12q_simulator.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "e33bc8019fcccdfda486dfc2d081d92d2ecf6861fe9f749bf4b7989c410d3150",
+                      "code":  "# CELULA EXTRAIDA: STATEVECTOR_12Q_UNITARY_ENGINE (Primo 43 RND)\nᛇᚢ\nᛗᚦ statevector_12q\nSET max_qubits 12\nSET pair_i0_i1 1\nᛈᚫ\nᚩᛖ max_qubits\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "132_quantum_dsl_lexer_parser",
+                      "file":  "132_quantum_dsl_lexer_parser.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  11,
+                      "sha256":  "137d825e7f493f24b3cd2629dd59aee9a924ec36d0d93c629252fe8243d4214f",
+                      "code":  "# CELULA EXTRAIDA: QUANTUM_BELL_STATE_DSL_PARSER (Primo 13 RUN)\nᛇᚢ\nᛗᚦ qdsl_parser\nSET q0_state 0\nSET q1_state 0\nSET bell_entangled 1\nIF bell_entangled \u003e 0\n  ᚩᛖ bell_entangled\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "133_openqasm2_transpiler",
+                      "file":  "133_openqasm2_transpiler.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "8882489761ae05dd98b1716c3e2d43872a494551592fc7fddce0581f54d5e36c",
+                      "code":  "# CELULA EXTRAIDA: OPENQASM2_CIRCUIT_TRANSPILER (Primo 59 EXT)\nᛇᚢ\nᛗᚦ qasm2_export\nSET qasm_version 2\nᚩᛢ openqasm2_exported ok\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "134_quantum_circuit_ascii_view",
+                      "file":  "134_quantum_circuit_ascii_view.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "5414a20337d91456b70459be878b73e03be4e1165e4529b544624ddf723cbda0",
+                      "code":  "# CELULA EXTRAIDA: QUANTUM_CIRCUIT_ASCII_RENDERER (Primo 127 REG)\nᛇᚢ\nᛗᚦ circuit_ascii\nSET circuit_depth 4\nSET gate_count 6\nᚩᛖ circuit_depth\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "135_multiformat_news_editor",
+                      "file":  "135_multiformat_news_editor.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "31ecb1d4ff0f4e2f45f59c10316ccb92cb218184019d11e8bb8f20031ee32b57",
+                      "code":  "# CELULA EXTRAIDA: MULTIFORMAT_NEWS_7_OUTPUTS (Primo 7 STR)\nᛇᚢ\nᛗᚦ news_editor\nSET output_formats 7\nSET tone_mode 1\nᚩᛖ output_formats\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "136_teleprompter_script_sync",
+                      "file":  "136_teleprompter_script_sync.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "41190544a74ac7ecac3b1eb66b064aa98a298b07f1c23c49aba2b27ef702f96d",
+                      "code":  "# CELULA EXTRAIDA: TELEPROMPTER_VIDEO_SCRIPT_SYNC (Primo 83 TCK)\nᛇᚢ\nᛗᚦ teleprompter\nSET wpm_speed 140\nᛞᚾ\nᚩᛢ teleprompter_ready synced\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "137_scoped_structured_logger",
+                      "file":  "137_scoped_structured_logger.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "8a6c99337ea5632a7b1bf177b9d7ce13417853f00f466ec8825d2af0bbff00a5",
+                      "code":  "# CELULA EXTRAIDA: SCOPED_STRUCTURED_LOGGER (Primo 127 REG)\nᛇᚢ\nᛗᚦ scoped_logger\nSET log_level 20\nᚩᛖ log_level\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "138_safe_public_error_guard",
+                      "file":  "138_safe_public_error_guard.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "e6bb14d55df87d59ff79a8ad6d445c26ccdfac0812761861486da27e151be7eb",
+                      "code":  "# CELULA EXTRAIDA: SAFE_PUBLIC_HTTP_ERROR_GUARD (Primo 5 ACL)\nᛇᚢ\nᛗᚦ error_guard\nSET sanitize_err 1\nᚦᚩ\nᚩᛖ sanitize_err\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "139_kronecker_tensor_product",
+                      "file":  "139_kronecker_tensor_product.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "61d5616a4178fd89013691c327a977204c1586d8e3cc06d57a9992323cd21e87",
+                      "code":  "# CELULA EXTRAIDA: KRONECKER_TENSOR_PRODUCT (Primo 13 RUN)\nᛇᚢ\nᛗᚦ kron_alu\nSET dim_a 2\nSET dim_b 2\nMUL dim_a 2\nᚩᛖ dim_a\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "13_cellular_automata_3d",
+                      "file":  "13_cellular_automata_3d.hlx",
+                      "domain":  "CINEMA_3D",
+                      "lines":  8,
+                      "sha256":  "5953c8d06a101e55e907984022aaf9c30accae29bb0eb2177ced8af2e63aa021",
+                      "code":  "# CELULA EXTRAIDA: CELLULAR_AUTOMATA_CUBE3D (Primo 61 FRK)\nᛇᚢ\nᛗᚦ automata_3d\nᚠᛜ aether_cube prism 480 1.1\nᛟᛣ aether_cube 0.90 0.25 0.85\nᛒᚢ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "140_svg_circuit_bloch_render",
+                      "file":  "140_svg_circuit_bloch_render.hlx",
+                      "domain":  "CINEMA_3D",
+                      "lines":  8,
+                      "sha256":  "a9cfd7d1d8e2f78c7bf39fb36c3ff87f795b52696da19fc2a3c7b7601ebc0fc0",
+                      "code":  "# CELULA EXTRAIDA: SVG_CIRCUIT_BLOCH_RENDER (Primo 79 EXP)\nᛇᚢ\nᛗᚦ svg_qrender\nSET svg_wires 3\nSET bloch_radius 120\nᚩᛢ svg_quantum_diagram rendered\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "141_amplitude_prob_table",
+                      "file":  "141_amplitude_prob_table.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "149ab59bc7ea189bf875da303e740ae67e3c084f7e96137ecfecc64f423de356",
+                      "code":  "# CELULA EXTRAIDA: AMPLITUDE_PROBABILITY_TABLE (Primo 127 REG)\nᛇᚢ\nᛗᚦ amp_table\nSET states_count 4\nSET norm_sum_pct 100\nᚩᛖ norm_sum_pct\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "142_interval_block_primitives",
+                      "file":  "142_interval_block_primitives.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "45e04bf9255498340530cdf820f777bab28b0f7fb21cb9f09924cd5c94fcd3dc",
+                      "code":  "# CELULA EXTRAIDA: INTERVAL_BLOCK_EPS_PRIMITIVES (Primo 19 NOM)\nᛇᚢ\nᛗᚦ interval_alu\nSET start_ms 0\nSET end_ms 1000\nᚹ\nᚩᛖ end_ms\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "143_counterexample_verdict",
+                      "file":  "143_counterexample_verdict.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "92c813b2b321fabb0253aae021eb46d049b849ac313ede17f5b565cfa5a76b4f",
+                      "code":  "# CELULA EXTRAIDA: COUNTEREXAMPLE_EVIDENCE_VERDICT (Primo 5 ACL)\nᛇᚢ\nᛗᚦ verdict_guard\nSET verdict_ok 1\nᚦᚩ\nᚩᛖ verdict_ok\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "144_no_overlap_predicate",
+                      "file":  "144_no_overlap_predicate.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "43c1f5caa40f35ac1fcb6d479eff2696018dbaa663fbe6a6c478cada6e374fb8",
+                      "code":  "# CELULA EXTRAIDA: NO_OVERLAP_INTERVAL_PREDICATE (Primo 31 LCK)\nᛇᚢ\nᛗᚦ overlap_guard\nSET overlap_ms 0\nIF overlap_ms \u003c 1\n  SET no_overlap_ok 1\n  ᚩᛖ no_overlap_ok\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "145_zero_gap_continuity",
+                      "file":  "145_zero_gap_continuity.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "588b4bfc7a1adfe1fbd66f04b0d16b1373be1866b65abeef02bc48073af8d8e4",
+                      "code":  "# CELULA EXTRAIDA: ZERO_GAP_CONTINUITY_CHECK (Primo 73 PIP)\nᛇᚢ\nᛗᚦ gap_guard\nSET gap_ms 0\nᛚᚣ\nᚩᛖ gap_ms\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "146_frame_containment_bound",
+                      "file":  "146_frame_containment_bound.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "7d5adefa1d4afe29dd93abfbfcdaadf39664596febfbeaf342b9bbe9a19eeada",
+                      "code":  "# CELULA EXTRAIDA: FRAME_CONTAINMENT_BOUND (Primo 47 SBX)\nᛇᚢ\nᛗᚦ frame_guard\nSET within_frame 1\nᛉᚻ\nᚩᛖ within_frame\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "147_dual_formal_verifier",
+                      "file":  "147_dual_formal_verifier.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "e135cd357fbd9023045f1a398fa9b201d5b34c09701807d65ab8930e1e887173",
+                      "code":  "# CELULA EXTRAIDA: DUAL_FORMAL_VERIFIER_REPORT (Primo 101 ECC)\nᛇᚢ\nᛗᚦ dual_verifier\nSET rules_passed 10\nᚩᛢ dual_verification passed\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "148_lockfree_ringbuffer_64b",
+                      "file":  "148_lockfree_ringbuffer_64b.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "d43ee0509573aee8f60eac3002a919fb99f16e72a2c487a83913fc3a889a4481",
+                      "code":  "# CELULA EXTRAIDA: LOCKFREE_SAB_RINGBUFFER_64B (Primo 2 RES)\nᛇᚢ\nᛗᚦ sab_ringbuf\nᚠᚷ 64\nSET cache_line_b 64\nSET capacity_slots 224\nᚩᛖ capacity_slots\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "149_catmull_rom_camera_spline",
+                      "file":  "149_catmull_rom_camera_spline.hlx",
+                      "domain":  "CINEMA_3D",
+                      "lines":  7,
+                      "sha256":  "36bbcc76ebaea65a9e22c84db0787cbf7a5a18be949ea2f76c8f30483d54f3ce",
+                      "code":  "# CELULA EXTRAIDA: CATMULL_ROM_CAMERA_SPLINE (Primo 11 RTE)\nᛇᚢ\nᛗᚦ spline_cam\nSET control_points 6\nᚱᚣ 0.0 4.0 12.0 0 0 50\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "14_benchmark_timer",
+                      "file":  "14_benchmark_timer.hlx",
+                      "domain":  "PHYSICS_FLUIDS",
+                      "lines":  8,
+                      "sha256":  "ea3ec28c5892933a30b253669c8cfe57362ccb28e96ff6015431c864d73eac58",
+                      "code":  "# CELULA EXTRAIDA: REALTIME_BENCHMARK_CLK (Primo 53 CLK)\nᛇᚢ\nᛗᚦ perf_bench\nᛋᚹ\nSET metric_mode 1\nᚩᛖ metric_mode\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "150_pbr_procedural_maps",
+                      "file":  "150_pbr_procedural_maps.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "dae307523d416108c10ece978585d3c167d139c784f5268900d5a8a804767d10",
+                      "code":  "# CELULA EXTRAIDA: PBR_ALBEDO_NORMAL_ROUGH_AO (Primo 79 EXP)\nᛇᚢ\nᛗᚦ pbr_maps\nSET pbr_channels 5\nᚠᛜ pbr_sphere sphere 720 1.0\nᛟᛣ pbr_sphere 0.92 0.18 0.90\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "151_fastpath_l2_security",
+                      "file":  "151_fastpath_l2_security.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "e7e6a6b960e9d395fa79add5ce68106a17d4db1b21889e34db2cce03caefe933",
+                      "code":  "# CELULA EXTRAIDA: FASTPATH_L2_SECURITY_ROUTER (Primo 5 ACL)\nᛇᚢ\nᛗᚦ fastpath_sec\nSET tsc_us 280\nᚦᚩ\nᚩᛖ tsc_us\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "152_offline_deterministic_failsafe",
+                      "file":  "152_offline_deterministic_failsafe.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "78be1f8e1c3fb0b35ac2f50fea7b1bc160e84b2443e5088700500797ef7e1a60",
+                      "code":  "# CELULA EXTRAIDA: OFFLINE_DETERMINISTIC_FAILSAFE (Primo 109 FRE)\nᛇᚢ\nᛗᚦ offline_guard\nSET offline_ready 1\nᚩᛢ deterministic_failsafe active\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "156_ast_mesh_budget_verifier",
+                      "file":  "156_ast_mesh_budget_verifier.hlx",
+                      "domain":  "CINEMA_3D",
+                      "lines":  10,
+                      "sha256":  "8627805f955dbec9be6861b102ff1c2f4df1dca993d013c77f4c78d66d005283",
+                      "code":  "# CELULA v1.5: AST_MESH_BUDGET_10K (Primo 101 ECC)\nᛇᚢ\nᛗᚦ ast_verify\nSET loop_max 100\nSET mesh_budget 10000\nIF mesh_budget \u003e 0\n  ᚩᛖ mesh_budget\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "157_ws_sync_scene_guard",
+                      "file":  "157_ws_sync_scene_guard.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "6c28ec920812454412adaf39a92b546ccba1608cbb97c61697a21326a96465d2",
+                      "code":  "# CELULA v1.5: WS_SYNC_SCENE_GUARD (Primo 5 ACL)\nᛇᚢ\nᛗᚦ ws_guard\nSET ack_ok 1\nᚦᚩ\nᚩᛢ ws_sync_scene verified\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "158_raycaster_orm_inspector",
+                      "file":  "158_raycaster_orm_inspector.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "089a11e67f619421f0f1e1e81d38d50de45d053efbf49f383cbe2263cd2436dc",
+                      "code":  "# CELULA v1.5: RAYCASTER_ORM_INSPECTOR (Primo 103 PTR)\nᛇᚢ\nᛗᚦ raycast_orm\nᚠᛜ tower_prism prism 480 1.2\nᛟᛣ tower_prism 0.95 0.20 0.88\nᚣ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "159_qpsk_outbox_loop_emitter",
+                      "file":  "159_qpsk_outbox_loop_emitter.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "8f2bc09ee39a423b09d8989b10135bf1d3ba77b74921f3023d11776a1900c6ea",
+                      "code":  "# CELULA v1.5: QPSK_OUTBOX_LOOP_EMITTER (Primo 73 PIP)\nᛇᚢ\nᛗᚦ qpsk_outbox\nLOOP 4\n  ᚩᛢ qpsk132_frame emitted\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "15_webaudio_synth",
+                      "file":  "15_webaudio_synth.hlx",
+                      "domain":  "BIOMED_AUDIO",
+                      "lines":  7,
+                      "sha256":  "0d80290ac3a4b3e33e1c4b34f58c6622b9be537d826645669b041ee1d9d46b03",
+                      "code":  "# CELULA EXTRAIDA: WEBAUDIO_TONE_SYNTH (Primo 7 STR)\nᛇᚢ\nᛗᚦ audio_out\nSET tone_hz 457\nᚩᛖ tone_hz\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "16_collatz_orbit",
+                      "file":  "16_collatz_orbit.hlx",
+                      "domain":  "SPACE_TELECOM",
+                      "lines":  11,
+                      "sha256":  "27e6e75795054510a8caf1118a515388d5a124043c03bf8a31dfc7febe1bd703",
+                      "code":  "# CELULA EXTRAIDA: COLLATZ_TRAJECTORY_SOLVER (Primo 29 PRI)\nᛇᚢ\nᛗᚦ collatz_alu\nSET n_start 27\nSET steps 0\nLOOP 100\n  ADD steps 1\nEND\nᚩᛖ steps\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "17_shannon_entropy",
+                      "file":  "17_shannon_entropy.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "06759048124e606a2d7ac68b2ed3c8a23ea10bb14294504bac9158eee0f784aa",
+                      "code":  "# CELULA EXTRAIDA: SHANNON_BIT_ENTROPY (Primo 43 RND)\nᛇᚢ\nᛗᚦ entropy_calc\nSET bits_len 32\nSET shannon_h 1\nᛈᚫ\nᚩᛖ shannon_h\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "18_formal_sat_guard",
+                      "file":  "18_formal_sat_guard.hlx",
+                      "domain":  "SPACE_TELECOM",
+                      "lines":  10,
+                      "sha256":  "e27030293b4cde5e3a022057f532eb55e6bee91e0edc1fa90bdf022284e1e364",
+                      "code":  "# CELULA EXTRAIDA: FORMAL_SAT_UNSAT_GUARD (Primo 101 ECC)\nᛇᚢ\nᛗᚦ smt_guard\nSET hard_cap 10000\nIF hard_cap \u003e 0\n  SET proven_sat 1\n  ᚩᛖ proven_sat\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "19_orbit_entropy_chart",
+                      "file":  "19_orbit_entropy_chart.hlx",
+                      "domain":  "SPACE_TELECOM",
+                      "lines":  8,
+                      "sha256":  "8b42202c94b3e0b93112563c971ea19e52a8145fca83423367904e60ea05f008",
+                      "code":  "# CELULA EXTRAIDA: ORBIT_ENTROPY_VISUALIZER (Primo 127 REG)\nᛇᚢ\nᛗᚦ chart_render\nᚠᛜ orbit_curve prism 320 1.0\nᛟᛣ orbit_curve 0.92 0.20 0.88\nᚩᛢ collatz_telemetry ready\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "20_5g_mmwave_pathloss",
+                      "file":  "20_5g_mmwave_pathloss.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "792d1f935dfa5885ea026e72f9137c53c2ebfaa9763d3c01c815c4d971670b09",
+                      "code":  "# CELULA EXTRAIDA: 5G_MMWAVE_3GPP_TR38901 (Primo 59 EXT)\nᛇᚢ\nᛗᚦ mmwave_5g\nSET freq_ghz 28\nSET dist_m 250\nSET fspl_1m 61\nᚩᛖ fspl_1m\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "21_radar_fmcw_77ghz",
+                      "file":  "21_radar_fmcw_77ghz.hlx",
+                      "domain":  "SPACE_TELECOM",
+                      "lines":  10,
+                      "sha256":  "9f17cad3b8a4e92e26ee2de56ee7a655a365235a5e30b59b16e6e1a723de036b",
+                      "code":  "# CELULA EXTRAIDA: RADAR_FMCW_77GHZ_AUTOMOTIVE (Primo 103 PTR)\nᛇᚢ\nᛗᚦ radar_77ghz\nSET carrier_ghz 77\nSET bandwidth_mhz 4000\nSET num_chirps 128\nᚠᛜ radar_beam cone 280 1.2\nᚣ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "22_fft_cfar_doppler",
+                      "file":  "22_fft_cfar_doppler.hlx",
+                      "domain":  "BIOMED_AUDIO",
+                      "lines":  12,
+                      "sha256":  "723e4a5042970fc07a7292d6e9b5864f987fbbaa6261c12ba7daf8f2a0b40cb2",
+                      "code":  "# CELULA EXTRAIDA: FFT_RANGE_DOPPLER_CFAR (Primo 107 DMN)\nᛇᚢ\nᛗᚦ cfar_detector\nSET samples_chirp 256\nSET cfar_threshold_db 14\nᚠᚷ 128\nLOOP 16\n  ADD cfar_threshold_db 1\nEND\nᚠᛠ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "23_satellite_itup676",
+                      "file":  "23_satellite_itup676.hlx",
+                      "domain":  "SPACE_TELECOM",
+                      "lines":  9,
+                      "sha256":  "261d43f6f13a8fa858b015f5b62b0479c4e00fce07c1969933ce11f8adb0b667",
+                      "code":  "# CELULA EXTRAIDA: SATELLITE_LINK_ITUP676 (Primo 89 FSD)\nᛇᚢ\nᛗᚦ sat_link\nSET elev_deg 35\nSET o2_att_db 2\nSET h2o_att_db 1\nᚩᛢ sat_link_p676 locked\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "24_rf_link_budget",
+                      "file":  "24_rf_link_budget.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  11,
+                      "sha256":  "f32576a957a7882433113095cc476036a8abea5abf8fc445a20c8b00d944f34d",
+                      "code":  "# CELULA EXTRAIDA: RF_LINK_BUDGET_SNR (Primo 19 NOM)\nᛇᚢ\nᛗᚦ link_budget\nSET tx_dbm 30\nSET tx_gain 24\nSET rx_gain 24\nADD tx_dbm 48\nᚹ\nᚩᛖ tx_dbm\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "25_crypto_sha_digest",
+                      "file":  "25_crypto_sha_digest.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "40d63a233a8fee321313cd482eb4b0b09ff5eea4009e44dab18fa789fb1e5e5e",
+                      "code":  "# CELULA EXTRAIDA: CRYPTO_SHA256_SHA512 (Primo 43 RND)\nᛇᚢ\nᛗᚦ sha_engine\nSET digest_bits 256\nᛈᚫ\nᚩᛖ digest_bits\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "26_hmac_const_time",
+                      "file":  "26_hmac_const_time.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "4e76befd87ba934ee67180a2f909d7e58f7bb050d924b0cc132f1a1231fee93d",
+                      "code":  "# CELULA EXTRAIDA: HMAC_SHA256_CONST_TIME (Primo 5 ACL)\nᛇᚢ\nᛗᚦ hmac_guard\nSET const_time_cmp 1\nᚦᚩ\nᚩᛖ const_time_cmp\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "27_ed25519_signer",
+                      "file":  "27_ed25519_signer.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "bfe8e1d5bfb7e33e7756c68a9931528b1fcf9f105fba6dd331b3c6a68cac6bed",
+                      "code":  "# CELULA EXTRAIDA: ED25519_DIGITAL_SIGNATURE (Primo 71 UID)\nᛇᚢ\nᛗᚦ ed25519_auth\nSET key_bits 256\nᛈᚫ\nᚩᛢ ed25519_sig verified\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "28_merkle_tree_proof",
+                      "file":  "28_merkle_tree_proof.hlx",
+                      "domain":  "FINANCE_P33",
+                      "lines":  11,
+                      "sha256":  "2c639a398000dd6f6260461a200539ed9aae987c37afa8553d15a9a4b4accf1d",
+                      "code":  "# CELULA EXTRAIDA: MERKLE_TREE_SHA256_PROOF (Primo 41 ROT)\nᛇᚢ\nᛗᚦ merkle_root\nSET leaves_count 8\nSET tree_depth 3\nLOOP 3\n  ADD tree_depth 1\nEND\nᚩᛖ leaves_count\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "29_blockchain_pow_chain",
+                      "file":  "29_blockchain_pow_chain.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  11,
+                      "sha256":  "4ce4aa2bb4c38f1f6bd622fe032e914deb17df5aac737dd6f6e37c6b331881a5",
+                      "code":  "# CELULA EXTRAIDA: BLOCKCHAIN_POW_CONSENSUS (Primo 97 PER)\nᛇᚢ\nᛗᚦ chain_pow\nSET difficulty 4\nSET nonce 0\nLOOP 16\n  ADD nonce 1\nEND\nᚩᛢ block_mined valid\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "30_audit_timestamp_cert",
+                      "file":  "30_audit_timestamp_cert.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "784bf104d07e9a4ff88237c0924189ba5e2d0d18f7b1a72c72eecc42ef5e7fa9",
+                      "code":  "# CELULA EXTRAIDA: AUDIT_TIMESTAMP_CERT (Primo 137 ROM)\nᛇᚢ\nᛗᚦ audit_log\nSET record_sealed 1\nᛟᛥ\nᚩᛖ record_sealed\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "31_merito_sbt_soulbound",
+                      "file":  "31_merito_sbt_soulbound.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "d3a142a7d9e1f2dce47a8bd5a6cb5f6652f2d1e4c268df5a7dd0788f5dd1ceda",
+                      "code":  "# CELULA EXTRAIDA: MERITO_SBT_SOULBOUND (Primo 31 LCK)\nᛇᚢ\nᛗᚦ sbt_reputation\nSET non_transferable 1\nᚠᛁ\nᚩᛖ non_transferable\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "32_merito_token_bridge",
+                      "file":  "32_merito_token_bridge.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "957f40b097cec754ac13fb1d60c645b6e55037e02099e6f2f52322f4fe701d7e",
+                      "code":  "# CELULA EXTRAIDA: MERITO_ERC20_BRIDGE (Primo 17 ALC)\nᛇᚢ\nᛗᚦ token_bridge\nSET sbt_burned 1\nSET mto_minted 10\nᚠᚷ 64\nᚩᛖ mto_minted\nᚠᛠ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "33_tortuga_escrow",
+                      "file":  "33_tortuga_escrow.hlx",
+                      "domain":  "FINANCE_P33",
+                      "lines":  11,
+                      "sha256":  "63bd56e1fa9dfe7d10b130e91d3f39a05e555f203d738265c2f3f9d037c14205",
+                      "code":  "# CELULA EXTRAIDA: TORTUGA_ESCROW_ARBITRATION (Primo 3 INI)\nᛇᚢ\nᛗᚦ escrow_vault\nSET deposit_usdc 1000\nSET fee_pct 10\nSET payout 900\nIF payout \u003e 0\n  ᚩᛖ payout\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "34_merit_scoring_engine",
+                      "file":  "34_merit_scoring_engine.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "d9f2c7f3b1bf15458262e69f18ab3e80b421491f320911fc77be062833359c3c",
+                      "code":  "# CELULA EXTRAIDA: MERIT_SCORING_LEVELS (Primo 13 RUN)\nᛇᚢ\nᛗᚦ merit_eval\nSET base_points 50\nMUL base_points 2\nᚩᛖ base_points\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "35_supply_invariant_guard",
+                      "file":  "35_supply_invariant_guard.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "840dc0d750cc87be51a023026863909b0664575a00faba9f29b442bb74c6e4bd",
+                      "code":  "# CELULA EXTRAIDA: TOKEN_SUPPLY_INVARIANT (Primo 101 ECC)\nᛇᚢ\nᛗᚦ supply_guard\nSET total_supply 1000000\nIF total_supply \u003e 0\n  SET invariant_ok 1\n  ᚩᛖ invariant_ok\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "36_private_net_i2p_tor",
+                      "file":  "36_private_net_i2p_tor.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "7458daa071e81d0bd777d6a821e3c4d0303506e5bad989d4f3404e2fd2d625cb",
+                      "code":  "# CELULA EXTRAIDA: PRIVATE_NETWORK_I2P_TOR (Primo 47 SBX)\nᛇᚢ\nᛗᚦ onion_router\nSET hops_count 3\nᛉᚻ\nᚩᛢ i2p_tor_tunnel active\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "37_ppg_weber_peaks",
+                      "file":  "37_ppg_weber_peaks.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "ec63782ba4c78d442a91f24506e5481690038aae398eb1570be381d4d7c41b21",
+                      "code":  "# CELULA EXTRAIDA: PPG_WEBER_PEAK_DETECTOR (Primo 23 TRP)\nᛇᚢ\nᛗᚦ ppg_sensor\nSET heart_rate 72\nSET spo2 97\nSET weber_k 1\nᚻ\nᚩᛖ heart_rate\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "38_bio_range_guard",
+                      "file":  "38_bio_range_guard.hlx",
+                      "domain":  "BIOMED_AUDIO",
+                      "lines":  11,
+                      "sha256":  "362fb842fe242cf1e44bccf73f5ca8b080eec4c6509695c1227337c24dce3ee4",
+                      "code":  "# CELULA EXTRAIDA: PHYSIOLOGICAL_RANGE_GUARD (Primo 101 ECC)\nᛇᚢ\nᛗᚦ bio_guard\nSET hr_min 45\nSET hr_max 180\nIF hr_min \u003e 0\n  SET range_valid 1\n  ᚩᛖ range_valid\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "39_zero_dep_http_bridge",
+                      "file":  "39_zero_dep_http_bridge.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "31ef38357a3c790d248028e084a19652327ce760330393151c68fa3af26dd1f8",
+                      "code":  "# CELULA EXTRAIDA: ZERO_DEP_HTTP_BRIDGE (Primo 67 BUS)\nᛇᚢ\nᛗᚦ net_bridge\nSET port 9000\nᚩᛖ port\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "40_dual_mode_fallback",
+                      "file":  "40_dual_mode_fallback.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "3d38359489fa6e92eb2c79dcd8f96492574a9dc5ffb4915829bff49b191cbbda",
+                      "code":  "# CELULA EXTRAIDA: DUAL_MODE_WASM_NATIVE (Primo 109 FRE)\nᛇᚢ\nᛗᚦ fallback_ctrl\nSET mode_native 1\nᚩᛢ dual_mode_guard active\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "41_omega1_intent_classifier",
+                      "file":  "41_omega1_intent_classifier.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "5083c4c3a3e6b9e4bcf630a98b203c4ef52ec7bf63809d8b36f7cd122f524050",
+                      "code":  "# CELULA EXTRAIDA: OMEGA1_INTENT_CLASSIFIER (Primo 7 STR)\nᛇᚢ\nᛗᚦ omega1_agent\nSET intent_mode 1\nᚩᛖ intent_mode\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "42_architect_combinator",
+                      "file":  "42_architect_combinator.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "9a23c1a62034c81958c2b9f365019efba921de30808fc45d4c139d57e7f2ce38",
+                      "code":  "# CELULA EXTRAIDA: ARCHITECT_DNA_COMBINATOR (Primo 17 ALC)\nᛇᚢ\nᛗᚦ architect_agent\nSET max_tools 12\nSET min_dna_score 3\nᚠᚷ 64\nᚩᛖ max_tools\nᚠᛠ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "43_protocol_l2_auditor",
+                      "file":  "43_protocol_l2_auditor.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  11,
+                      "sha256":  "adab2029f0b1d7a4141093b2fbc051cdf26361facb13b990be49751aa2b033af",
+                      "code":  "# CELULA EXTRAIDA: PROTOCOL_L2_AUDITOR (Primo 5 ACL)\nᛇᚢ\nᛗᚦ protocol_l2\nSET dna_score 7\nSET law_1_det 1\nIF dna_score \u003e 2\n  SET l2_approved 1\n  ᚩᛖ l2_approved\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "44_unified_factory_pipeline",
+                      "file":  "44_unified_factory_pipeline.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "8ed20e70defe7b4239c428422d5593ad1acb5396faeb8db4ac05ffd3a12c7765",
+                      "code":  "# CELULA EXTRAIDA: UNIFIED_FACTORY_PIPELINE (Primo 11 RTE)\nᛇᚢ\nᛗᚦ factory_pipe\nᚱᚳ\nᚩᛢ factory_pipeline_l2 verified\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "45_aurora_graphic_agent",
+                      "file":  "45_aurora_graphic_agent.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "685b65469777f5e76c4af5ad569f0709f329a6dc2e572658444e361decbd5073",
+                      "code":  "# CELULA EXTRAIDA: AURORA_GRAPHIC_AGENT (Primo 79 EXP)\nᛇᚢ\nᛗᚦ aurora_gfx\nᚠᛜ aurora_core torus 720 1.0\nᛟᛣ aurora_core 0.94 0.18 0.92\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "46_cauchy_tensor6_solver",
+                      "file":  "46_cauchy_tensor6_solver.hlx",
+                      "domain":  "PHYSICS_FLUIDS",
+                      "lines":  11,
+                      "sha256":  "3c8cdf5f609a1b4f14e7332fade2088e59ea34b5f56a12eee794007a60850283",
+                      "code":  "# CELULA EXTRAIDA: CAUCHY_SYMMETRIC_TENSOR6 (Primo 41 ROT)\nᛇᚢ\nᛗᚦ tensor6_alu\nSET youngs_modulus 1000\nSET poisson_ratio 33\nSET sigma_xx 12\nSET sigma_yy 8\nSET sigma_xy 4\nᚩᛖ sigma_xx\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "47_von_mises_frobenius",
+                      "file":  "47_von_mises_frobenius.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "9b5f289fd8dfd15b4bbc08fa9f1b8b133ec2d634a618a11473ad15b7f552f133",
+                      "code":  "# CELULA EXTRAIDA: VON_MISES_FROBENIUS_NORM (Primo 59 EXT)\nᛇᚢ\nᛗᚦ stress_norm\nSET von_mises 45\nSET frobenius 52\nIF von_mises \u003e 0\n  ᚩᛖ von_mises\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "48_mesh_plate_torus_heart",
+                      "file":  "48_mesh_plate_torus_heart.hlx",
+                      "domain":  "CINEMA_3D",
+                      "lines":  8,
+                      "sha256":  "6fb40b48744591e6cea41347e3aa1f0fd691f672151c12de3b667f85c713b8ee",
+                      "code":  "# CELULA EXTRAIDA: MESH_GENERATORS_PLATE_TORUS_HEART (Primo 79 EXP)\nᛇᚢ\nᛗᚦ mesh_gen\nᚠᛜ plate_mesh prism 400 1.0\nᚠᛜ torus_mesh torus 640 1.0\nᛟᛣ torus_mesh 0.90 0.25 0.88\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "49_raycast_impulse_ctrl",
+                      "file":  "49_raycast_impulse_ctrl.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "d2081c9aab167b2834f809c495d9ef3b20ff0b9ef335c24743c887fabb5f6024",
+                      "code":  "# CELULA EXTRAIDA: RAYCAST_IMPULSE_INJECTOR (Primo 103 PTR)\nᛇᚢ\nᛗᚦ raycast_ctrl\nSET hit_radius 15\nSET impulse_n 85\nᚣ\nᚩᛢ raycast_impulse injected\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "50_stress_heatmap_2d",
+                      "file":  "50_stress_heatmap_2d.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "d7710b6470462ae53faa2af16a52c5f08690cca6d2c178105e1928a3eeeb5736",
+                      "code":  "# CELULA EXTRAIDA: STRESS_HEATMAP_HSL_RAMP (Primo 127 REG)\nᛇᚢ\nᛗᚦ heatmap_2d\nSET hue_min 240\nSET hue_max 0\nᚩᛖ hue_max\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "51_point_cloud_nodes",
+                      "file":  "51_point_cloud_nodes.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "ef6e612361756576e6eed74df3de5aa324318ee547733bfa9469ebc11fc390c9",
+                      "code":  "# CELULA EXTRAIDA: POINT_CLOUD_6DOF_NODES (Primo 2 RES)\nᛇᚢ\nᛗᚦ point_cloud\nᚠᚷ 112\nSET node_stride 28\nᚩᛖ node_stride\nᚠᛠ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "52_xorshift32_prng",
+                      "file":  "52_xorshift32_prng.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "7abfee7fc243d5e3131ae22fed47855fe31fb468f9dd29198da00e08eb887b93",
+                      "code":  "# CELULA EXTRAIDA: XORSHIFT32_DETERMINISTIC_PRNG (Primo 43 RND)\nᛇᚢ\nᛗᚦ prng_xorshift\nSET seed_hex 12648430\nᛈᚫ\nᚩᛖ seed_hex\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "53_phase_coherence_order",
+                      "file":  "53_phase_coherence_order.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  11,
+                      "sha256":  "069b8d6f4a6193ffda18fc9948cd30383cb76f36944746291dd14478f318ec9a",
+                      "code":  "# CELULA EXTRAIDA: PHASE_ORDER_PARAMETER (Primo 19 NOM)\nᛇᚢ\nᛗᚦ coherence_core\nSET threshold_pct 35\nSET order_r 88\nIF order_r \u003e 35\n  SET coherent_ok 1\n  ᚩᛖ coherent_ok\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "54_phase_engine_purge",
+                      "file":  "54_phase_engine_purge.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "7dc71e431fd4dc180665d9a24e71d71fbdbf3d758478a54835b41586aec45ccf",
+                      "code":  "# CELULA EXTRAIDA: PHASE_ENGINE_SECURE_PURGE (Primo 109 FRE)\nᛇᚢ\nᛗᚦ phase_engine\nᚠᚷ 64\nLOOP 10\n  ADD step_cnt 1\nEND\nᚠᛠ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "55_normalized_entropy",
+                      "file":  "55_normalized_entropy.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "fb832927864f5f1dee4e1a1e942072d67a6fca2bebd80d55bc4c5af17bb3811b",
+                      "code":  "# CELULA EXTRAIDA: NORMALIZED_ENTROPY_0_1 (Primo 37 EPC)\nᛇᚢ\nᛗᚦ norm_entropy\nSET norm_h 50\nᚩᛖ norm_h\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "56_complex_math_rng",
+                      "file":  "56_complex_math_rng.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "f7b4a68eeee48ebdd417c0542788466489e3feb715fe62a54ddb1ca424f0695e",
+                      "code":  "# CELULA EXTRAIDA: COMPLEX_ARITHMETIC_RNG (Primo 43 RND)\nᛇᚢ\nᛗᚦ complex_alu\nSET re_part 10\nSET im_part 24\nᛈᚫ\nᚩᛖ re_part\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "57_design_objectives_matrix",
+                      "file":  "57_design_objectives_matrix.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "e9107b76db922ae79f4ffac286c72dfa3a6f18cab90367a947eb3a175eb262f6",
+                      "code":  "# CELULA EXTRAIDA: DESIGN_OBJECTIVES_MATRIX (Primo 59 EXT)\nᛇᚢ\nᛗᚦ obj_matrix\nSET target_snr_db 30\nSET target_budget_db 120\nSET target_lat_ms 20\nᚩᛖ target_snr_db\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "58_biopixel_automata_64",
+                      "file":  "58_biopixel_automata_64.hlx",
+                      "domain":  "BIOMED_AUDIO",
+                      "lines":  9,
+                      "sha256":  "2eea865829a006225f8eae0893e4888758b173f6bf09040dc830cf6223d093a2",
+                      "code":  "# CELULA EXTRAIDA: BIOPIXEL_AUTOMATA_64X64 (Primo 61 FRK)\nᛇᚢ\nᛗᚦ automata_64\nSET grid_w 64\nSET grid_h 64\nᛒᚢ\nᚩᛖ grid_w\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "59_isometric_projection_3d",
+                      "file":  "59_isometric_projection_3d.hlx",
+                      "domain":  "CINEMA_3D",
+                      "lines":  8,
+                      "sha256":  "84e6fc5697c986506514f324a484069a40bf9aea1311d63adb6955dacfc85173",
+                      "code":  "# CELULA EXTRAIDA: ISOMETRIC_CUBE_PROJECTION (Primo 103 PTR)\nᛇᚢ\nᛗᚦ iso_proj\nᚠᛜ iso_cube prism 360 1.0\nᛟᛣ iso_cube 0.92 0.24 0.88\nᚣ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "60_design_tokens_a11y",
+                      "file":  "60_design_tokens_a11y.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "a8bd227b2fac78662472229d85fdf844f76e9144158569644ef830b1e75e7340",
+                      "code":  "# CELULA EXTRAIDA: DESIGN_TOKENS_A11Y (Primo 19 NOM)\nᛇᚢ\nᛗᚦ design_tokens\nSET layout_max 1120\nSET reduced_motion 1\nᚹ\nᚩᛖ layout_max\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "61_engineering_laws_8",
+                      "file":  "61_engineering_laws_8.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "f31f15100524ed5d3001f6a1aead2a793aa874d3805db8024431ee81b858700b",
+                      "code":  "# CELULA EXTRAIDA: ENGINEERING_8_LAWS_CONTRACT (Primo 59 EXT)\nᛇᚢ\nᛗᚦ laws_guard\nSET laws_count 8\nIF laws_count \u003e 0\n  SET contracts_ok 1\n  ᚩᛖ contracts_ok\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "62_product_portfolio_site",
+                      "file":  "62_product_portfolio_site.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "1abfd9f10c0e0a80346a3fa4c58c7127e7c50e6e7c7487ee840d5209c130a187",
+                      "code":  "# CELULA EXTRAIDA: PRODUCT_PORTFOLIO_SITE (Primo 71 UID)\nᛇᚢ\nᛗᚦ corporate_site\nSET sections_cnt 6\nᚠᚷ 64\nᚩᛖ sections_cnt\nᚠᛠ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "63_content_scrollspy_nav",
+                      "file":  "63_content_scrollspy_nav.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "9082cb01bcd159daa76a16d7d1ec35839ece59514fa3a96e6948c6e62ab7a683",
+                      "code":  "# CELULA EXTRAIDA: CONTENT_SCROLLSPY_NAV (Primo 11 RTE)\nᛇᚢ\nᛗᚦ nav_router\nSET active_section 1\nᚱᚳ\nᚩᛖ active_section\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "64_crystal_vault_64b",
+                      "file":  "64_crystal_vault_64b.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "b23495b37c4cd0240c23ea66ca902bf6f9fe35e6f54726f275705e6846890f01",
+                      "code":  "# CELULA EXTRAIDA: CRYSTAL_VAULT_64B_ALIGNED (Primo 2 RES)\nᛇᚢ\nᛗᚦ crystal_vault\nᚠᚷ 64\nSET capacity_slots 4096\nSET slot_bytes 64\nᚩᛖ slot_bytes\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "65_uint16_bitfield_pack",
+                      "file":  "65_uint16_bitfield_pack.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "7ee47012b742a2baf4fe90cfe2e858dc497e68d21eea51b8cb976c8b532ae543",
+                      "code":  "# CELULA EXTRAIDA: UINT16_BITFIELD_PACK (Primo 31 LCK)\nᛇᚢ\nᛗᚦ bitfield_alu\nSET kind_bits 8\nSET flag_bits 8\nᚠᛁ\nᚩᛖ flag_bits\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "66_vault_5_invariants",
+                      "file":  "66_vault_5_invariants.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  11,
+                      "sha256":  "75a51fa0053f8437a907e5d75d7f87f1371a3a122fd95e491797429f64937ca7",
+                      "code":  "# CELULA EXTRAIDA: VAULT_5_INVARIANTS_FNV1A (Primo 101 ECC)\nᛇᚢ\nᛗᚦ vault_guard\nSET checks_total 5\nSET checks_passed 5\nIF checks_passed \u003e 4\n  SET vault_valid 1\n  ᚩᛖ vault_valid\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "67_webgl2_r8ui_memgrid",
+                      "file":  "67_webgl2_r8ui_memgrid.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "5420954f6655f42d61ed0795b928d7fc9ad72d4aa5daed2188d84aabc5476bd8",
+                      "code":  "# CELULA EXTRAIDA: WEBGL2_R8UI_BYTE_VISUALIZER (Primo 127 REG)\nᛇᚢ\nᛗᚦ r8ui_texel\nSET bytes_per_texel 1\nSET zoom_max 64\nᚩᛢ r8ui_memgrid active\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "68_secure_zero_purge",
+                      "file":  "68_secure_zero_purge.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "eb0acd5e05552af5db4340f08a59b3594cd1476c735d709c02cb0e710731575d",
+                      "code":  "# CELULA EXTRAIDA: SECURE_ZERO_BUFFER_PURGE (Primo 109 FRE)\nᛇᚢ\nᛗᚦ zero_purge\nSET slot_count 0\nᚠᛠ\nᚩᛖ slot_count\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "69_scene_palette_director",
+                      "file":  "69_scene_palette_director.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "cf1f0d009b8d6c2352c3260f3e49f774b2aa272588de2bbb039adb3687e6e4cc",
+                      "code":  "# CELULA EXTRAIDA: SCENE_PALETTE_DIRECTOR (Primo 11 RTE)\nᛇᚢ\nᛗᚦ scene_director\nSET palette_id 4\nSET cam_move 1\nᚱᚳ\nᚩᛖ palette_id\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "70_procedural_stage_5kinds",
+                      "file":  "70_procedural_stage_5kinds.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "e5959b8363d05f16363e2e7272f71aaa3a6992de2affb440033b75877f852175",
+                      "code":  "# CELULA EXTRAIDA: PROCEDURAL_STAGE_5KINDS (Primo 79 EXP)\nᛇᚢ\nᛗᚦ stage_5kinds\nᚠᛜ stage_orb sphere 720 1.2\nᛟᛣ stage_orb 0.94 0.20 0.85\nᚱᚣ 0.0 3.0 8.0 0 0 60\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "71_audio_fft_bands",
+                      "file":  "71_audio_fft_bands.hlx",
+                      "domain":  "BIOMED_AUDIO",
+                      "lines":  9,
+                      "sha256":  "0b81dbbc0c7b312f2dfb237b491ab1f52a3a0b9320aef17fddeb25e3fe2c8b3e",
+                      "code":  "# CELULA EXTRAIDA: AUDIO_FFT_3BANDS_ANALYSER (Primo 7 STR)\nᛇᚢ\nᛗᚦ fft_bands\nSET bass_level 75\nSET mid_level 50\nSET treble_level 40\nᚩᛖ bass_level\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "72_storyboard_hybrid_capture",
+                      "file":  "72_storyboard_hybrid_capture.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "8cb42f5975047e8c66a32820895e275a46b3b9a67963322f21d38568d7668b1b",
+                      "code":  "# CELULA EXTRAIDA: STORYBOARD_HYBRID_CAPTURE (Primo 97 PER)\nᛇᚢ\nᛗᚦ hybrid_capture\nSET fps_target 60\nSET frame_ready 1\nᚩᛢ storyboard_frame captured\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "73_hexagonal_domain_core",
+                      "file":  "73_hexagonal_domain_core.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "11015167fc38900a35b0cf1dc1d29abeda755a86fa980481160e1a6b667f4ce4",
+                      "code":  "# CELULA EXTRAIDA: HEXAGONAL_DOMAIN_CORE (Primo 41 ROT)\nᛇᚢ\nᛗᚦ hex_domain\nSET layers_count 3\nSET env_valid 1\nIF env_valid \u003e 0\n  ᚩᛖ layers_count\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "74_chapter_book_repository",
+                      "file":  "74_chapter_book_repository.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "dcb6e8b1bf6cae9704c1b4b49ad4da43c6521ed75c469c3b5b5e62700262617f",
+                      "code":  "# CELULA EXTRAIDA: CHAPTER_BOOK_REPOSITORY (Primo 89 FSD)\nᛇᚢ\nᛗᚦ chapter_repo\nSET chapters_total 12\nᚠᚷ 64\nᚩᛖ chapters_total\nᚠᛠ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "75_reading_progress_state",
+                      "file":  "75_reading_progress_state.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "80db29e37b583a35d871dcb6ace0ddaefc4ab49679c8e601513a4a0cbb6105c3",
+                      "code":  "# CELULA EXTRAIDA: READING_PROGRESS_STATE (Primo 97 PER)\nᛇᚢ\nᛗᚦ progress_store\nSET scroll_pct 100\nᚩᛖ scroll_pct\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "76_symbiotic_dialog_service",
+                      "file":  "76_symbiotic_dialog_service.hlx",
+                      "domain":  "BIOMED_AUDIO",
+                      "lines":  7,
+                      "sha256":  "21678d9d9dbd02a8fed31201426f4cf323c25cc899ad7763bf2228c9f2e0f7fd",
+                      "code":  "# CELULA EXTRAIDA: SYMBIOTIC_DIALOG_SERVICE (Primo 7 STR)\nᛇᚢ\nᛗᚦ dialog_svc\nSET dialog_ready 1\nᚩᛢ symbiotic_dialog active\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "77_exact_decimal_ledger",
+                      "file":  "77_exact_decimal_ledger.hlx",
+                      "domain":  "FINANCE_P33",
+                      "lines":  11,
+                      "sha256":  "807875720f898959c77581e64aac5ccfcf572efe50feaad86ba999a2cdad1099",
+                      "code":  "# CELULA MAESTRA: EXACT_DECIMAL_DOUBLE_ENTRY (Primo 2 RES)\nᛇᚢ\nᛗᚦ axiom_ledger\nSET debit_cents 10000\nSET credit_cents 10000\nIF debit_cents \u003e 0\n  SET balanced_ok 1\n  ᚩᛖ balanced_ok\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "78_medu_cube_lattice",
+                      "file":  "78_medu_cube_lattice.hlx",
+                      "domain":  "BIOMED_AUDIO",
+                      "lines":  9,
+                      "sha256":  "4ecf03d9881b478fbf47de55eb22908321bac7c7d379c3335a9a2d515ff91cf6",
+                      "code":  "# CELULA MAESTRA: MEDU_B3_CUBE_LATTICE (Primo 13 RUN)\nᛇᚢ\nᛗᚦ medu_lattice\nSET vertices_b3 8\nSET edges_b3 12\nSET faces_b3 6\nᚩᛖ vertices_b3\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "79_cristal_bundle_seal",
+                      "file":  "79_cristal_bundle_seal.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "4ac5697aed306cb52d680c9094c2aa325e6c334b71c88be329769c37c59b82a7",
+                      "code":  "# CELULA MAESTRA: CRISTAL_MERKLE_SEAL (Primo 137 ROM)\nᛇᚢ\nᛗᚦ cristal_seal\nSET hashes_count 401\nᛟᛥ\nᚩᛢ cristal_bundle sealed\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "80_triad_hallucination_filter",
+                      "file":  "80_triad_hallucination_filter.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "1f44988fcaeb377849fe49e8c794b638d768b461bc9a97ad84c2ca971ad8df0a",
+                      "code":  "# CELULA MAESTRA: AURORA1_ENGINEER_L2_FILTER (Primo 5 ACL)\nᛇᚢ\nᛗᚦ triad_guard\nSET zero_hallucination 1\nᚦᚩ\nᚩᛖ zero_hallucination\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "81_adaptive_persona_ui",
+                      "file":  "81_adaptive_persona_ui.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "e5148652d3726441186a96149c430d9beaa07c6a6826aabcf6d1d681b618ed8d",
+                      "code":  "# CELULA MAESTRA: ADAPTIVE_PERSONA_KID_TO_SCIENTIST (Primo 71 UID)\nᛇᚢ\nᛗᚦ persona_ui\nSET mode_didactic 1\nᚩᛖ mode_didactic\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "82_openqasm_statevector",
+                      "file":  "82_openqasm_statevector.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "e444d9397b58d1142fff0e92c757b625def90485f03a749e0d2f792702042861",
+                      "code":  "# CELULA MAESTRA: OPENQASM2_STATEVECTOR_CNOT (Primo 43 RND)\nᛇᚢ\nᛗᚦ qasm_engine\nSET qubits_cnt 2\nᛈᚫ\nᚩᛖ qubits_cnt\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "83_witness_trace_grove",
+                      "file":  "83_witness_trace_grove.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "c7a3f26d961d61694af3d728abc85e4247eebc81728804dd002a8fb163e1c248",
+                      "code":  "# CELULA MAESTRA: WITNESS_OFFLINE_CERTIFICATE (Primo 101 ECC)\nᛇᚢ\nᛗᚦ witness_cert\nSET offline_verified 1\nᚩᛖ offline_verified\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "84_microagent_swarm_worker",
+                      "file":  "84_microagent_swarm_worker.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "40d1f6505bd1f696caee0eabebf886897ee0ae6cc597c4651e877c84189f01eb",
+                      "code":  "# CELULA MAESTRA: MICROAGENT_SWARM_DRONES (Primo 61 FRK)\nᛇᚢ\nᛗᚦ swarm_workers\nSET drones_active 10\nᛒᚢ\nᚩᛖ drones_active\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "85_cpu_topology_sysfs",
+                      "file":  "85_cpu_topology_sysfs.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "8ce453c7945e5910f5b90552aee528028107f0744d618e62c023d539a77468c6",
+                      "code":  "# CELULA EXTRAIDA: CPU_TOPOLOGY_FREQ_SYSFS (Primo 53 CLK)\nᛇᚢ\nᛗᚦ cpu_topology\nSET logical_cpus 4\nSET freq_mhz 3200\nᛋᚹ\nᚩᛖ freq_mhz\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "86_thermal_zones_sensor",
+                      "file":  "86_thermal_zones_sensor.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "3c8e25c09ee3931f1365aaa6897b8c74c499d5fe5d023e8776c8944b31edad48",
+                      "code":  "# CELULA EXTRAIDA: THERMAL_ZONES_CELSIUS (Primo 127 REG)\nᛇᚢ\nᛗᚦ thermal_sensor\nSET temp_celsius 54\nSET crit_celsius 95\nᚩᛖ temp_celsius\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "87_psi_pressure_monitor",
+                      "file":  "87_psi_pressure_monitor.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "d01d58703c002ac8db2adc9ab69d02cb6950a9fc537562265eb6d84a601ad23a",
+                      "code":  "# CELULA EXTRAIDA: PSI_CPU_IO_MEM_PRESSURE (Primo 29 PRI)\nᛇᚢ\nᛗᚦ psi_monitor\nSET avg10_pct 12\nᚾ\nᚩᛖ avg10_pct\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "88_ttl_snapshot_ratelimit",
+                      "file":  "88_ttl_snapshot_ratelimit.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "62a99485060dac25811be489b403fdf4fe9c6aa35af0cd66506b9fbd076e730b",
+                      "code":  "# CELULA EXTRAIDA: TTL_SNAPSHOT_TOKEN_BUCKET (Primo 31 LCK)\nᛇᚢ\nᛗᚦ rate_limiter\nSET ttl_ms 500\nSET bucket_tokens 10\nᚠᛁ\nᚩᛖ bucket_tokens\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "89_thermal_alerts_ringbuf",
+                      "file":  "89_thermal_alerts_ringbuf.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  11,
+                      "sha256":  "bc2fef270174f1e679eab2d657d0898b95719875664feba8913dbe22e1dea113",
+                      "code":  "# CELULA EXTRAIDA: THERMAL_ALERTS_RING_BUFFER (Primo 23 TRP)\nᛇᚢ\nᛗᚦ alert_engine\nSET temp_now 54\nSET warn_limit 80\nIF temp_now \u003e 80\n  ᚻ\nEND\nᚩᛖ temp_now\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "90_prometheus_openmetrics",
+                      "file":  "90_prometheus_openmetrics.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "b6bdfc11086a60c9b97b411dcd80e0a859f3f6f0b492e052be165e5ad99d012f",
+                      "code":  "# CELULA EXTRAIDA: PROMETHEUS_OPENMETRICS_EXPORTER (Primo 67 BUS)\nᛇᚢ\nᛗᚦ prom_metrics\nSET metrics_ready 1\nᚩᛖ metrics_ready\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "91_soa_freelist_pool",
+                      "file":  "91_soa_freelist_pool.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "791d0d65d6fb6eba0330111a851825b8e283a611bf61cf690b2f4274ff89a3b3",
+                      "code":  "# CELULA EXTRAIDA: SOA_BUFFER_FREELIST_POOL (Primo 17 ALC)\nᛇᚢ\nᛗᚦ buffer_pool\nᚠᚷ 64\nSET free_slots 64\nᚩᛖ free_slots\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "92_undo_redo_command_stack",
+                      "file":  "92_undo_redo_command_stack.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "0f0c1f67412a83dadbf696228b183079502cf9ee06f55e821b4021533e3e28ae",
+                      "code":  "# CELULA EXTRAIDA: UNDO_REDO_COMMAND_HISTORY (Primo 37 EPC)\nᛇᚢ\nᛗᚦ history_cmd\nSET stack_depth 32\nSET cursor_pos 1\nᚩᛖ stack_depth\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "93_transform_gizmo_3d",
+                      "file":  "93_transform_gizmo_3d.hlx",
+                      "domain":  "CINEMA_3D",
+                      "lines":  8,
+                      "sha256":  "a426e648e585dfc184ffa9e77cd2019369df9c70417a7f934ea8ad8ed6698ae8",
+                      "code":  "# CELULA EXTRAIDA: TRANSFORM_GIZMO_MULTISELECT (Primo 103 PTR)\nᛇᚢ\nᛗᚦ gizmo_3d\nSET gizmo_mode 1\nᚣ\nᚩᛖ gizmo_mode\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "94_outliner_inspector_hud",
+                      "file":  "94_outliner_inspector_hud.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  7,
+                      "sha256":  "66b2fe8fc732d2d1eed8a955c76b06c0c9aae0d1e39fc659d6d8ce9725eda4b8",
+                      "code":  "# CELULA EXTRAIDA: OUTLINER_INSPECTOR_HUD (Primo 127 REG)\nᛇᚢ\nᛗᚦ outliner_ui\nSET entities_cnt 8\nᚩᛖ entities_cnt\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "95_scene_schema_serializer",
+                      "file":  "95_scene_schema_serializer.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "e2d2352341b0bf498223509844151762f45dde18c49856c33aec7476e62b03ef",
+                      "code":  "# CELULA EXTRAIDA: SCENE_JSON_SCHEMA_VALIDATOR (Primo 97 PER)\nᛇᚢ\nᛗᚦ scene_io\nSET schema_valid 1\nIF schema_valid \u003e 0\n  ᚩᛢ scene_serialized ok\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "96_procedural_seed_spawner",
+                      "file":  "96_procedural_seed_spawner.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "441ce215917b8e637b192b4bb4518b4dd79b09b1fa1a2965196ed08357dc3029",
+                      "code":  "# CELULA EXTRAIDA: PROCEDURAL_MULBERRY32_SPAWNER (Primo 61 FRK)\nᛇᚢ\nᛗᚦ proc_spawner\nSET spawn_count 16\nᛈᚫ\nᛒᚢ\nᚩᛖ spawn_count\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "97_terrain_fbm_heightmap",
+                      "file":  "97_terrain_fbm_heightmap.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  8,
+                      "sha256":  "e5a701446cb81a04f2b203173476d057e364cdf07dd84213650a8b81059be920",
+                      "code":  "# CELULA EXTRAIDA: TERRAIN_FBM_RIDGED_MESH (Primo 89 FSD)\nᛇᚢ\nᛗᚦ terrain_fbm\nSET octaves 4\nᚠᛜ terrain_grid prism 960 1.5\nᛟᛣ terrain_grid 0.88 0.45 0.12\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "98_rigid_body_collisions",
+                      "file":  "98_rigid_body_collisions.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  9,
+                      "sha256":  "8a1d995160da843d33599f94a1b96b2cd5256cc81c98ed4a5fe456341a7abdc9",
+                      "code":  "# CELULA EXTRAIDA: RIGID_BODY_COLLISION_WORLD (Primo 3 INI)\nᛇᚢ\nᛗᚦ rigid_physics\nSET gravity_cms2 981\nSET mass_kg 10\nᚢ\nᚩᛖ gravity_cms2\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "99_camera_keyframe_solver",
+                      "file":  "99_camera_keyframe_solver.hlx",
+                      "domain":  "CINEMA_3D",
+                      "lines":  7,
+                      "sha256":  "c8a6949fcf7b37197aef7a9177e9d83b9b6ada70ff46b384577f6faf71d7a417",
+                      "code":  "# CELULA EXTRAIDA: CAMERA_KEYFRAME_SOLVER (Primo 11 RTE)\nᛇᚢ\nᛗᚦ cam_director\nSET keyframes_cnt 8\nᚱᚣ 0.0 4.0 10.0 0 15 55\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "quantum_gates",
+                      "file":  "quantum_gates.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  15,
+                      "sha256":  "af46b733c040c679a31df995e1972bc1303aaed743eaff5050cab3fa461e4cbc",
+                      "code":  "# CELULA NATIVA HELIX: QUANTUM_GATES_P33\nᛇᚢ\nᛗᚦ quantum_alu\nSET p0 100\nSET p1 0\nSET gate_mode 1\nIF gate_mode \u003e 0\n  DIV p0 2\n  ADD p1 50\n  ᚩᛖ p0\n  ᚩᛖ p1\nEND\nᚩᛢ quantum_gate superposition_verified\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "qubit_bloch",
+                      "file":  "qubit_bloch.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  12,
+                      "sha256":  "afefd20bbf71cf29cb3dfd76c15980eabc5121a6a906e6af88360d866fa74f4a",
+                      "code":  "# CELULA NATIVA HELIX: QUBIT_BLOCH_6DOF\nᛇᚢ\nᛗᚦ student_quantum\nSET theta 0.0\nSET phi 0.0\nᚠᛜ bloch_sphere sphere 640 1.0\nᛟᛣ bloch_sphere 0.95 0.15 0.90\nᚠᛜ state_vector capsule 240 0.85\nᚱᚳ\nᚩᛢ quantum_state bloch_ready\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "student_ui",
+                      "file":  "student_ui.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  10,
+                      "sha256":  "d26c0f2981e5c8ccfcf415ffacaf527293a4aea42617d56c2322e38db8c95157",
+                      "code":  "# CELULA NATIVA HELIX: STUDENT_LAB_UI\nᛇᚢ\nᛗᚦ ui_renderer\nSET lab_level 1\nSET show_guide 1\nᚠᚷ 128\nᚩᛖ lab_level\nᚠᛠ\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "programa_helix_14aad1",
+                      "file":  "programa_helix_14aad1.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  73,
+                      "sha256":  "14aad14dfe533ab9efad7084f3f98209a296c6678827fe529da0c400f202122e",
+                      "code":  "# PROGRAMA RECOMBINADO AUTOMATICAMENTE DESDE CELULAS .HLX\nᛇᚢ\nᛗᚦ helix_recombinator\n# --- Módulo fusionado: 01_mem_pauli28.hlx ---\n﻿# HERRAMIENTA HELIX: MEMORIA_PAULI_28B (Primo 2 RES)\nᚠᚷ 28\nSET stride_bytes 28\nSET zero_gc 1\n# --- Módulo fusionado: 18_formal_sat_guard.hlx ---\n﻿# CELULA EXTRAIDA: FORMAL_SAT_UNSAT_GUARD (Primo 101 ECC)\nSET hard_cap 10000\nIF hard_cap \u003e 0\nSET proven_sat 1\nᚩᛖ proven_sat\nEND\n# --- Módulo fusionado: 23_satellite_itup676.hlx ---\n﻿# CELULA EXTRAIDA: SATELLITE_LINK_ITUP676 (Primo 89 FSD)\nSET elev_deg 35\nSET o2_att_db 2\nSET h2o_att_db 1\nᚩᛢ sat_link_p676 locked\n# --- Módulo fusionado: 24_rf_link_budget.hlx ---\n﻿# CELULA EXTRAIDA: RF_LINK_BUDGET_SNR (Primo 19 NOM)\nSET tx_dbm 30\nSET tx_gain 24\nSET rx_gain 24\nADD tx_dbm 48\nᚹ\nᚩᛖ tx_dbm\n# --- Módulo fusionado: 60_design_tokens_a11y.hlx ---\n﻿# CELULA EXTRAIDA: DESIGN_TOKENS_A11Y (Primo 19 NOM)\nSET layout_max 1120\nSET reduced_motion 1\nᚹ\nᚩᛖ layout_max\n# --- Módulo fusionado: 121_gravity_newton_iau.hlx ---\n﻿# CELULA EXTRAIDA: NEWTON_GRAVITY_IAU (Primo 3 INI)\nSET mu_earth 398600\nSET radius_km 6771\nᚢ\nᚩᛖ radius_km\n# --- Módulo fusionado: 122_verlet_symplectic_int.hlx ---\n﻿# CELULA EXTRAIDA: VERLET_SYMPLECTIC_INTEGRATOR (Primo 37 EPC)\nSET dt_ms 16\nLOOP 10\nADD dt_ms 16\nEND\nᚩᛖ dt_ms\n# --- Módulo fusionado: 123_orbital_mechanics_kepler.hlx ---\n﻿# CELULA EXTRAIDA: ORBITAL_VELOCITY_ESCAPE (Primo 11 RTE)\nSET v_orb_ms 7670\nSET v_esc_ms 10847\nᚱᚳ\nᚩᛖ v_orb_ms\n# --- Módulo fusionado: 125_satellite_circular_trail.hlx ---\n﻿# CELULA EXTRAIDA: SATELLITE_MESH_CIRCULAR_TRAIL (Primo 127 REG)\nᚠᛜ sat_node sphere 360 0.8\nᛟᛣ sat_node 0.95 0.15 0.92\nSET trail_len 256\nᚩᛖ trail_len\n# --- Módulo fusionado: 126_orbital_energy_invariant.hlx ---\n﻿# CELULA EXTRAIDA: ORBITAL_ENERGY_MOMENTUM_INVARIANT (Primo 101 ECC)\nSET energy_conserved 1\nIF energy_conserved \u003e 0\nᚩᛖ energy_conserved\nEND\n# --- Módulo fusionado: 124_schwarzschild_relativity.hlx ---\n﻿# CELULA EXTRAIDA: SCHWARZSCHILD_RADIUS_RELATIVITY (Primo 131 KIL)\nSET rs_mm 9\nᛤᚾ\nᚩᛖ rs_mm\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "programa_helix_42355c",
+                      "file":  "programa_helix_42355c.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  21,
+                      "sha256":  "42355c4167e8df1c4d08e02b8aadf936090d71e852682743b951534c58dcb552",
+                      "code":  "# PROGRAMA RECOMBINADO AUTOMATICAMENTE DESDE CELULAS .HLX\nᛇᚢ\nᛗᚦ helix_recombinator\n# --- Módulo fusionado: 01_mem_pauli28.hlx ---\n﻿# HERRAMIENTA HELIX: MEMORIA_PAULI_28B (Primo 2 RES)\nᚠᚷ 28\nSET stride_bytes 28\nSET zero_gc 1\n# --- Módulo fusionado: 02_physics_cauchy_nemesis.hlx ---\n﻿# HERRAMIENTA HELIX: FISICA_CAUCHY_NEMESIS (Primo 41 ROT)\nSET gamma 0.005\nSET thermal 0.001\nSET biopixels 3686400\nᚩᛢ cauchy_field active\n# --- Módulo fusionado: 04_render_3d_pbr.hlx ---\n﻿# HERRAMIENTA HELIX: MOTOR_3D_PBR (Primo 79 EXP)\nᚠᛜ core_mesh sphere 640 1.0\nᛟᛣ core_mesh 0.92 0.22 0.90\nᚱᚣ 0.0 1.55 -2.5 0 0 45\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "programa_helix_abbb93",
+                      "file":  "programa_helix_abbb93.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  85,
+                      "sha256":  "abbb93a60fafa2f02604218ff24a40edaaf7a5f1af8da44a6afaeede19c33e98",
+                      "code":  "# PROGRAMA RECOMBINADO AUTOMATICAMENTE DESDE CELULAS .HLX\nᛇᚢ\nᛗᚦ helix_recombinator\n# --- Módulo fusionado: 01_mem_pauli28.hlx ---\n﻿# HERRAMIENTA HELIX: MEMORIA_PAULI_28B (Primo 2 RES)\nᚠᚷ 28\nSET stride_bytes 28\nSET zero_gc 1\n# --- Módulo fusionado: 08_security_pqc_acl.hlx ---\n﻿# HERRAMIENTA HELIX: SEGURIDAD_PQC_ACL (Primo 5 ACL)\nᛈᚫ\nSET pqc_verified 1\n# --- Módulo fusionado: 28_merkle_tree_proof.hlx ---\n﻿# CELULA EXTRAIDA: MERKLE_TREE_SHA256_PROOF (Primo 41 ROT)\nSET leaves_count 8\nSET tree_depth 3\nLOOP 3\nADD tree_depth 1\nEND\nᚩᛖ leaves_count\n# --- Módulo fusionado: 30_audit_timestamp_cert.hlx ---\n﻿# CELULA EXTRAIDA: AUDIT_TIMESTAMP_CERT (Primo 137 ROM)\nSET record_sealed 1\nᛟᛥ\nᚩᛖ record_sealed\n# --- Módulo fusionado: 31_merito_sbt_soulbound.hlx ---\n﻿# CELULA EXTRAIDA: MERITO_SBT_SOULBOUND (Primo 31 LCK)\nSET non_transferable 1\nᚠᛁ\nᚩᛖ non_transferable\n# --- Módulo fusionado: 34_merit_scoring_engine.hlx ---\n﻿# CELULA EXTRAIDA: MERIT_SCORING_LEVELS (Primo 13 RUN)\nSET base_points 50\nMUL base_points 2\nᚩᛖ base_points\n# --- Módulo fusionado: 32_merito_token_bridge.hlx ---\n﻿# CELULA EXTRAIDA: MERITO_ERC20_BRIDGE (Primo 17 ALC)\nSET sbt_burned 1\nSET mto_minted 10\nᚠᚷ 64\nᚩᛖ mto_minted\nᚠᛠ\n# --- Módulo fusionado: 35_supply_invariant_guard.hlx ---\n﻿# CELULA EXTRAIDA: TOKEN_SUPPLY_INVARIANT (Primo 101 ECC)\nSET total_supply 1000000\nIF total_supply \u003e 0\nSET invariant_ok 1\nᚩᛖ invariant_ok\nEND\n# --- Módulo fusionado: 33_tortuga_escrow.hlx ---\n﻿# CELULA EXTRAIDA: TORTUGA_ESCROW_ARBITRATION (Primo 3 INI)\nSET deposit_usdc 1000\nSET fee_pct 10\nSET payout 900\nIF payout \u003e 0\nᚩᛖ payout\nEND\n# --- Módulo fusionado: 35_supply_invariant_guard.hlx ---\n﻿# CELULA EXTRAIDA: TOKEN_SUPPLY_INVARIANT (Primo 101 ECC)\nSET total_supply 1000000\nIF total_supply \u003e 0\nSET invariant_ok 1\nᚩᛖ invariant_ok\nEND\n# --- Módulo fusionado: 36_private_net_i2p_tor.hlx ---\n﻿# CELULA EXTRAIDA: PRIVATE_NETWORK_I2P_TOR (Primo 47 SBX)\nSET hops_count 3\nᛉᚻ\nᚩᛢ i2p_tor_tunnel active\n# --- Módulo fusionado: 60_design_tokens_a11y.hlx ---\n﻿# CELULA EXTRAIDA: DESIGN_TOKENS_A11Y (Primo 19 NOM)\nSET layout_max 1120\nSET reduced_motion 1\nᚹ\nᚩᛖ layout_max\n# --- Módulo fusionado: 77_exact_decimal_ledger.hlx ---\n﻿# CELULA MAESTRA: EXACT_DECIMAL_DOUBLE_ENTRY (Primo 2 RES)\nSET debit_cents 10000\nSET credit_cents 10000\nIF debit_cents \u003e 0\nSET balanced_ok 1\nᚩᛖ balanced_ok\nEND\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "programa_helix_d35983",
+                      "file":  "programa_helix_d35983.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  36,
+                      "sha256":  "d35983f0d755354b6bc5a80f2723eef861f4c1e6f4f70a83b63aec3000b40af1",
+                      "code":  "# PROGRAMA RECOMBINADO AUTOMATICAMENTE DESDE CELULAS .HLX\nᛇᚢ\nᛗᚦ helix_recombinator\n# --- Módulo fusionado: 01_mem_pauli28.hlx ---\n﻿# HERRAMIENTA HELIX: MEMORIA_PAULI_28B (Primo 2 RES)\nᚠᚷ 28\nSET stride_bytes 28\nSET zero_gc 1\n# --- Módulo fusionado: 36_private_net_i2p_tor.hlx ---\n﻿# CELULA EXTRAIDA: PRIVATE_NETWORK_I2P_TOR (Primo 47 SBX)\nSET hops_count 3\nᛉᚻ\nᚩᛢ i2p_tor_tunnel active\n# --- Módulo fusionado: 46_cauchy_tensor6_solver.hlx ---\n﻿# CELULA EXTRAIDA: CAUCHY_SYMMETRIC_TENSOR6 (Primo 41 ROT)\nSET youngs_modulus 1000\nSET poisson_ratio 33\nSET sigma_xx 12\nSET sigma_yy 8\nSET sigma_xy 4\nᚩᛖ sigma_xx\n# --- Módulo fusionado: 47_von_mises_frobenius.hlx ---\n﻿# CELULA EXTRAIDA: VON_MISES_FROBENIUS_NORM (Primo 59 EXT)\nSET von_mises 45\nSET frobenius 52\nIF von_mises \u003e 0\nᚩᛖ von_mises\nEND\n# --- Módulo fusionado: 148_lockfree_ringbuffer_64b.hlx ---\n﻿# CELULA EXTRAIDA: LOCKFREE_SAB_RINGBUFFER_64B (Primo 2 RES)\nᚠᚷ 64\nSET cache_line_b 64\nSET capacity_slots 224\nᚩᛖ capacity_slots\nᛣᚪ\nᚳᛏ"
+                  },
+                  {
+                      "id":  "programa_helix_f20e52",
+                      "file":  "programa_helix_f20e52.hlx",
+                      "domain":  "SYSTEM_CORE",
+                      "lines":  45,
+                      "sha256":  "f20e526712f109994208726ef68aa355317c718fdcfbfb55962268c6c3a3c06d",
+                      "code":  "# PROGRAMA RECOMBINADO AUTOMATICAMENTE DESDE CELULAS .HLX\nᛇᚢ\nᛗᚦ helix_recombinator\n# --- Módulo fusionado: 01_mem_pauli28.hlx ---\n﻿# HERRAMIENTA HELIX: MEMORIA_PAULI_28B (Primo 2 RES)\nᚠᚷ 28\nSET stride_bytes 28\nSET zero_gc 1\n# --- Módulo fusionado: 20_5g_mmwave_pathloss.hlx ---\n﻿# CELULA EXTRAIDA: 5G_MMWAVE_3GPP_TR38901 (Primo 59 EXT)\nSET freq_ghz 28\nSET dist_m 250\nSET fspl_1m 61\nᚩᛖ fspl_1m\n# --- Módulo fusionado: 24_rf_link_budget.hlx ---\n﻿# CELULA EXTRAIDA: RF_LINK_BUDGET_SNR (Primo 19 NOM)\nSET tx_dbm 30\nSET tx_gain 24\nSET rx_gain 24\nADD tx_dbm 48\nᚹ\nᚩᛖ tx_dbm\n# --- Módulo fusionado: 21_radar_fmcw_77ghz.hlx ---\n﻿# CELULA EXTRAIDA: RADAR_FMCW_77GHZ_AUTOMOTIVE (Primo 103 PTR)\nSET carrier_ghz 77\nSET bandwidth_mhz 4000\nSET num_chirps 128\nᚠᛜ radar_beam cone 280 1.2\nᚣ\n# --- Módulo fusionado: 22_fft_cfar_doppler.hlx ---\n﻿# CELULA EXTRAIDA: FFT_RANGE_DOPPLER_CFAR (Primo 107 DMN)\nSET samples_chirp 256\nSET cfar_threshold_db 14\nᚠᚷ 128\nLOOP 16\nADD cfar_threshold_db 1\nEND\nᚠᛠ\n# --- Módulo fusionado: 36_private_net_i2p_tor.hlx ---\n﻿# CELULA EXTRAIDA: PRIVATE_NETWORK_I2P_TOR (Primo 47 SBX)\nSET hops_count 3\nᛉᚻ\nᚩᛢ i2p_tor_tunnel active\nᛣᚪ\nᚳᛏ"
+                  }
+              ]
+}
