@@ -1,3 +1,4 @@
+﻿import { CreatorStudioBanner } from './components/CreatorStudioBanner';
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
@@ -311,6 +312,7 @@ export default function App() {
 
         {/* Workspace Viewport */}
         <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6 lg:px-8">
+      <CreatorStudioBanner onRunProgram={(code) => setProgramSource(code)} />
           {activeModule === 'A' && (
             <VocabularyView
               vocabulary={fullVocabulary}
